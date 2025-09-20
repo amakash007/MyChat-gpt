@@ -63,6 +63,7 @@ export const Thread: FC = () => {
   );
 };
 
+
 const ThreadScrollToBottom: FC = () => {
   return (
     <ThreadPrimitive.ScrollToBottom asChild>
