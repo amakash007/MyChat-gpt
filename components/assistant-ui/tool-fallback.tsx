@@ -30,7 +30,7 @@ export const ToolFallback: ToolCallMessagePartComponent = ({
           {result !== undefined && (
             <div className="aui-tool-fallback-result-root border-t border-dashed px-4 pt-2">
               <p className="aui-tool-fallback-result-header font-semibold">
-                Result:
+                Result: 
               </p>
               <pre className="aui-tool-fallback-result-content whitespace-pre-wrap">
                 {typeof result === "string"
@@ -38,7 +38,7 @@ export const ToolFallback: ToolCallMessagePartComponent = ({
                   : JSON.stringify(result, null, 2)}
               </pre>
             </div>
-          )}
+          )};
         </div>
       )}
     </div>
