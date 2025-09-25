@@ -38,7 +38,7 @@ export const ToolFallback: ToolCallMessagePartComponent = ({
                   : JSON.stringify(result, null, 2)}
               </pre>
             </div>
-          )};
+          )}
         </div>
       )}
     </div>
