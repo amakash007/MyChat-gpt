@@ -41,6 +41,8 @@ export const ToolFallback: ToolCallMessagePartComponent = ({
           )}
         </div>
       )}
+
+      
     </div>
   );
 };
