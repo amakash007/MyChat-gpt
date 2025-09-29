@@ -229,14 +229,6 @@ export const ComposerAddAttachment: FC = () => {
         aria-label="Add Attachment"
       >
 
-
-
-
-
-
-
-
-        
         <PlusIcon className="aui-attachment-add-icon size-5 stroke-[1.5px]" />
       </TooltipIconButton>
     </ComposerPrimitive.AddAttachment>
