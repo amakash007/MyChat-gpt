@@ -30,12 +30,7 @@ const ThreadListNew: FC = () => {
     </ThreadListPrimitive.New>
   );
 };
-
-
-
-
-
-//
+//no changes 
 const ThreadListItems: FC = () => {
   return <ThreadListPrimitive.Items components={{ ThreadListItem }} />;
 };
